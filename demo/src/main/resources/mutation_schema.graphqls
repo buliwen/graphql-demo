@@ -1,0 +1,4 @@
+type Mutation {
+	#用户注册
+	userRegist(user_input:UserInput):Result
+}
